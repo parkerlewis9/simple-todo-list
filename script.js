@@ -10,6 +10,7 @@ function addLi() {
 	newLi.innerHTML = content;
 	var list = document.querySelector("ul");
 	list.appendChild(newLi)
+	input.value = "";
 }
 
 var button = document.querySelector("button");
